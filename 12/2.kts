@@ -57,5 +57,3 @@ val results = File("input").readLines().map { line ->
     val newSizes = (0..<5).flatMap { sizes }
     options(newRecord, newSizes)!!
 }
-
-println(results.sum())
